@@ -26,7 +26,7 @@ class Projects extends Component {
                     <h2 className="title-1">Gadgets</h2>
                     <ul className="projects">
                         {this.state.phones.map(phone => {
-                            return <Project key = {phone.id} title = {phone.model} id = {phone.id}/>
+                            return <Project key = {phone.id} title = {phone.model} img = {phone.image} id = {phone.id}/>
                         })}
                     </ul>
                 </div>
