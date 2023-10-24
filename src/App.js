@@ -7,8 +7,8 @@ import ScrollToTop from "./utils/scrollToTop"
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Contacts from "./pages/Contacts";
+import Gadgets from "./pages/Gadgets";
+import Add from "./pages/Add";
 import Project from "./pages/Project";
 
 function App() {
@@ -19,9 +19,9 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/gadgets" element={<Gadgets />} />
           <Route path="/project/:id" element={<Project />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/add" element={<Add />} />
         </Routes>
         <Footer/>
       </Router>

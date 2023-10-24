@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo">
-                        <strong className="logo-header">GadRat</strong> <br/> <a className="logo-description">Ratig of gadgets</a>
+                        <strong className="logo-header">GadRat</strong> <br/> <div className="logo-description">Ratig of gadgets</div>
                     </NavLink>
 
                     <ButtonDarkMmode />
@@ -22,11 +22,11 @@ const Navbar = () => {
                         <NavLink to="/" className={({isActive}) => isActive ? activeLink : defaultLink}>
                             Home
                         </NavLink>
-                        <NavLink to="/projects" className={({isActive}) => isActive ? activeLink : defaultLink}>
+                        <NavLink to="/gadgets" className={({isActive}) => isActive ? activeLink : defaultLink}>
                             Gadgets
                         </NavLink>
-                        <NavLink to="/contacts" className={({isActive}) => isActive ? activeLink : defaultLink}>
-                            Contacts
+                        <NavLink to="/add" className={({isActive}) => isActive ? activeLink : defaultLink}>
+                            +
                         </NavLink>
                     </ul>
                 </div>

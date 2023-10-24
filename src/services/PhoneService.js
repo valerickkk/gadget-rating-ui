@@ -1,15 +1,15 @@
 import axios from "axios";
 
-const EMPLOYEE_API_BASE_URL = "http://localhost:8080/grbcknd/phones"
+const GADRAT_API_PHONES_URL = "http://localhost:8080/grbcknd/phones"
 
 class PhoneService {
 
     getPhones() {
-        return axios.get(EMPLOYEE_API_BASE_URL);
+        return axios.get(GADRAT_API_PHONES_URL);
     }
 
     getPhoneById(id) {
-        return axios.get(EMPLOYEE_API_BASE_URL + '/' + id);
+        return axios.get(GADRAT_API_PHONES_URL + '/' + id);
     }
 }
 

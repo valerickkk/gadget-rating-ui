@@ -1,9 +1,9 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import Project from "../components/project/Project";
 
 import PhoneService from "../services/PhoneService";
 
-class Projects extends Component {
+class Gadgets extends Component {
 
     constructor(props) {
         super(props)
@@ -26,7 +26,7 @@ class Projects extends Component {
                     <h2 className="title-1">Gadgets</h2>
                     <ul className="projects">
                         {this.state.phones.map(phone => {
-                            return <Project key = {phone.id} title = {phone.model} img = {phone.image} id = {phone.id}/>
+                            return <Project key = {phone.id} title = {phone.model} img = {phone.images[0].content} id = {phone.id}/>
                         })}
                     </ul>
                 </div>
@@ -35,4 +35,4 @@ class Projects extends Component {
     }
 }
  
-export default Projects;
+export default Gadgets;
