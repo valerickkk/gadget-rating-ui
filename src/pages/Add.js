@@ -80,6 +80,7 @@ class Add extends Component {
                             <div className='input-container'>
                                 <label className="input-label">Gadget type</label>
                                 <select name="type" className='select-css' onChange={this.changeTypeHandler}>
+                                    <option disabled selected value>select a type...</option>
                                     {this.state.types.map((type) => {
                                         return <option value={type} label={type.toLowerCase()} />
                                     })}
@@ -88,6 +89,7 @@ class Add extends Component {
                             <div className='input-container'>
                                 <label className="input-label">Company</label>
                                 <select name="company" className='select-css' onChange={this.changeCompanyHandler}>
+                                    <option disabled selected value>select a company...</option>
                                     {this.state.companies.map((company) => {
                                         return <option placeholder="Select company" value={company.id} label={company.name} />
                                     })}
