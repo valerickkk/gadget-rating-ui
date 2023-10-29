@@ -10,6 +10,7 @@
 	--purple: #5c62ec;
 	--grey: #504E59;
 	--grey-input: #424149;
+	--red-input: #564040;
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -36,6 +37,7 @@
 
 	--form-input-bg: var(--grey);
 	--input-bg: var(--grey-input);
+	--input-error-bg: var(--red-input);
 }
 
 .dark {
@@ -263,8 +265,7 @@ body {
 	margin-top: 30px;
 }
 
-
-.select-css { 
+.select { 
 	font-size: 18px;
 	display: block; 
 	flood-color: var(--input-bg);
@@ -285,6 +286,10 @@ body {
 	-moz-appearance: none;
  	-webkit-appearance: none;
  	appearance: none;
+}
+
+.input-error { 
+	border: 2px solid red;
 } 
 
 .select-css::-ms-expand { display: none; } 
