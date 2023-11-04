@@ -1,15 +1,14 @@
 /* Header */
 
 .header {
-	padding: 40px 0;
-	min-height: 695px;
+	padding: 40px 2% 4% 2%;;
+	min-height: 395px;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	background-color: var(--header-bg);
-	background-image: url('./../../img/header-bg.png');
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center center;
@@ -20,18 +19,18 @@
 
 .header__wrapper {
 	padding: 0 15px;
-	max-width: 660px;
+	min-width: 50%;
 }
 
 .header__title {
 	margin-bottom: 20px;
-	font-size: 40px;
-	font-weight: 700;
+	font-size: 30px;
+	font-weight: 300;
 	line-height: 1.4;
 }
 
 .header__title strong {
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 700;
 }
 

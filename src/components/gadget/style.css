@@ -1,7 +1,8 @@
 
-.project {
+.gadget {
 	max-width: 370px;
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
+	margin: auto;
 }

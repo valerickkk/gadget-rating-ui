@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo">
-                        <strong className="logo-header">GadRat</strong> <br/> <div className="logo-description">Ratig of gadgets</div>
+                        <strong className="logo-header">Gad<em>Rat</em></strong> <br/> <div className="logo-description">Ratig of gadgets</div>
                     </NavLink>
 
                     <ButtonDarkMmode />

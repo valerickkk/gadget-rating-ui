@@ -135,9 +135,9 @@ body {
 	top: 1px;
 }
 
-/* Projects  */
+/* Gadgets  */
 
-.projects {
+.gadgets {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;

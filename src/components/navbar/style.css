@@ -37,6 +37,11 @@
 	font-weight: 700;
 }
 
+.logo em {
+	font-style: normal;
+	color: var(--accent);
+}
+
 .nav-list {
 	display: flex;
 	flex-wrap: wrap;
