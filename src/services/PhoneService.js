@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const GADRAT_API_PHONES_URL = "http://localhost:8080/grbcknd/phones"
+const GADRAT_API_PHONES_URL = "http://localhost:8080/core/phones"
 
 class PhoneService {
 

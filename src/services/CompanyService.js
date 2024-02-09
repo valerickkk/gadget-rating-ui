@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const GADRAT_API_GADGET_URL = "http://localhost:8080/grbcknd/companies"
+const GADRAT_API_GADGET_URL = "http://localhost:8080/core/companies"
 
 class CompanyService {
 
